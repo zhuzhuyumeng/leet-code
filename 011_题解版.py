@@ -19,6 +19,7 @@ class Solution:
             if left>=0:
                 ans[left] = nums[q[0]]
         return ans
+    womeizhao
 
 
 # 第一步维护好这个单调队列
