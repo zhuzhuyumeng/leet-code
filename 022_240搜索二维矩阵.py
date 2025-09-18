@@ -6,8 +6,16 @@ class Solution:
         x=x_len-1
         flag = False
         while flag==False:
-            if matrix[y][x]
+            if matrix[y][x]<target: # 比目标值小，向下，补充向右
+                y+=1
+            if matrix[y][x]>target: # 比目标值大，向左，补充向上
+                x-=1
+            if matrix[y][x]==target:
+                flag=True
+                return flag
 
+        return flag
 
+nums = []
 
 
