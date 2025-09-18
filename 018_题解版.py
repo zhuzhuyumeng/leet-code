@@ -7,7 +7,7 @@ class Solution:
                 j = nums[i]-1# 真实数组位置
                 nums[i],nums[j]=nums[j],nums[i]
         for i in range(n):
-            if nums[i]!=i+1
+            if nums[i]!=i+1:
                 return i+1
         return n+1
 
