@@ -5,16 +5,15 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def inorder(self,root: Optional[TreeNode],vec: List[int]):
+    def preorder(self, root: Optional[TreeNode], vec: List[int]):
         if root is None:
             return
-        self.inorder(root.left)
         vec.append(root.val)
-        self.inorder(root.right)
+        self.preorder(root.left, vec)
+        self.preorder(root.right, vec)
         return
 
-
-    def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
-        list = []
-        self.inorder(root,list)
-        return list
+    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        List = []
+        self.preorder(root, List)
+        return List

@@ -4,31 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4050549c-553d-4113-80e5-9aa1a6daf6be" name="更改" comment="28递归回文">
-      <change afterPath="$PROJECT_DIR$/hot100/029_2两数相加.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="4050549c-553d-4113-80e5-9aa1a6daf6be" name="更改" comment="9.24">
+      <change afterPath="$PROJECT_DIR$/hot100/037_104二叉树的最大深度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hot100/038_226翻转二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hot100/039_101对称二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/2.二叉树的递归遍历/2,.145二叉树的后序遍历.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/2.二叉树的递归遍历/2..py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/2.二叉树的递归遍历/2.144二叉树前序遍历递归法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/3.二叉树的迭代遍历/3.144二叉树中序遍历迭代法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/3.二叉树的迭代遍历/3.144二叉树前序遍历迭代法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/3.二叉树的迭代遍历/3.145二叉树后序遍历迭代法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/6.翻转二叉树/6.226翻转二叉树.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/9.二叉树的最大深度/9.104二叉树的最大深度.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/9.二叉树的最大深度/9.559n叉树的最大深度.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/003.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/003_最长连续序列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/007_42.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/007_42接雨水.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/008_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/008_3无重复字符的最长子串.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/011_239自己做.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/011_239滑动窗口最大值.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/016_189轮转数组.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/015_189轮转数组.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/017_238除自身以外数组的乘积.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/016_238除自身以外数组的乘积.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/018_41缺失的第一个正数.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/017_41缺失的第一个正数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/018_题解版.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/017_题解版.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/019_73矩阵置零.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/018_73矩阵置零.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/019_两标记变量.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/018_两标记变量.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/020_54螺旋矩阵.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/019_54螺旋矩阵.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/021_48旋转图像.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/020_48旋转图像.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/022_240搜索二维矩阵.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/021_240搜索二维矩阵.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/023_160相交链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/022_160相交链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/024_206翻转链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/023_206翻转链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/025_234回文链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/024_234回文链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/025_递归.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/024_递归.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/026_141环形链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/025_141环形链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/027_142环形链表2.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/026_142环形链表2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/028_21合并两个有序链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/028_21合并两个有序链表.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hot100/035_146LRU缓存.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/！！！035_146LRU缓存.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hot100/036_94二叉树的中序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/036_94二叉树的中序遍历.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,42 +69,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.006.executor": "Run",
-    "Python.007_42.executor": "Debug",
-    "Python.008_3.executor": "Run",
-    "Python.009.executor": "Debug",
-    "Python.009_438.executor": "Run",
-    "Python.009_题解版.executor": "Run",
-    "Python.010_560.executor": "Run",
-    "Python.010_题解版.executor": "Run",
-    "Python.011_239自己做.executor": "Run",
-    "Python.011_自己做2.executor": "Run",
-    "Python.012_76_最小覆盖子串.executor": "Run",
-    "Python.013_53最大子数组和.executor": "Run",
-    "Python.014_56区间合并.executor": "Run",
-    "Python.016_189轮转数组.executor": "Run",
-    "Python.017_238除自身以外数组的乘积.executor": "Run",
-    "Python.018_41缺失的第一个正数.executor": "Run",
-    "Python.019_73矩阵置零.executor": "Run",
-    "Python.019_两标记变量.executor": "Run",
-    "Python.020_54螺旋矩阵.executor": "Run",
-    "Python.021_48旋转图像.executor": "Run",
-    "Python.022_240搜索二维矩阵.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/zym/Documents/Pycharm/leet-code",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.006.executor&quot;: &quot;Run&quot;,
+    &quot;Python.007_42.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.008_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.009.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.009_438.executor&quot;: &quot;Run&quot;,
+    &quot;Python.009_题解版.executor&quot;: &quot;Run&quot;,
+    &quot;Python.010_560.executor&quot;: &quot;Run&quot;,
+    &quot;Python.010_题解版.executor&quot;: &quot;Run&quot;,
+    &quot;Python.011_239自己做.executor&quot;: &quot;Run&quot;,
+    &quot;Python.011_自己做2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.012_76_最小覆盖子串.executor&quot;: &quot;Run&quot;,
+    &quot;Python.013_53最大子数组和.executor&quot;: &quot;Run&quot;,
+    &quot;Python.014_56区间合并.executor&quot;: &quot;Run&quot;,
+    &quot;Python.016_189轮转数组.executor&quot;: &quot;Run&quot;,
+    &quot;Python.017_238除自身以外数组的乘积.executor&quot;: &quot;Run&quot;,
+    &quot;Python.018_41缺失的第一个正数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.019_73矩阵置零.executor&quot;: &quot;Run&quot;,
+    &quot;Python.019_两标记变量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.020_54螺旋矩阵.executor&quot;: &quot;Run&quot;,
+    &quot;Python.021_48旋转图像.executor&quot;: &quot;Run&quot;,
+    &quot;Python.022_240搜索二维矩阵.executor&quot;: &quot;Run&quot;,
+    &quot;Python.59_螺旋矩阵2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/PycharmProjects/leetcode/二叉树/3.二叉树的迭代遍历&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.021_240搜索二维矩阵">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\leetcode\二叉树\3.二叉树的迭代遍历" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\leetcode" />
+      <recent name="F:\PycharmProjects\leetcode\链表" />
+      <recent name="F:\PycharmProjects\leetcode\数组" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.59_螺旋矩阵2">
     <configuration name="019_两标记变量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="ENV_FILES" value="" />
@@ -129,29 +131,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/019_两标记变量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="019_73矩阵置零" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/019_73矩阵置零.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,13 +208,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="59_螺旋矩阵2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数组/6.螺旋矩阵2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数组/6.螺旋矩阵2/59_螺旋矩阵2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.59_螺旋矩阵2" />
         <item itemvalue="Python.021_240搜索二维矩阵" />
         <item itemvalue="Python.021_48旋转图像" />
         <item itemvalue="Python.020_54螺旋矩阵" />
         <item itemvalue="Python.019_两标记变量" />
-        <item itemvalue="Python.019_73矩阵置零" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +269,15 @@
       <workItem from="1758007002700" duration="5539000" />
       <workItem from="1758021973481" duration="18952000" />
       <workItem from="1758164828658" duration="16048000" />
-      <workItem from="1758350429978" duration="2028000" />
+      <workItem from="1758350429978" duration="3913000" />
+      <workItem from="1758420019718" duration="3503000" />
+      <workItem from="1758507245705" duration="18486000" />
+      <workItem from="1758586125461" duration="1781000" />
+      <workItem from="1758627709385" duration="282000" />
+      <workItem from="1758690749218" duration="9213000" />
+      <workItem from="1758707771999" duration="15642000" />
+      <workItem from="1759025253800" duration="5112000" />
+      <workItem from="1760062974290" duration="5431000" />
     </task>
     <task id="LOCAL-00001" summary="nihao">
       <option name="closed" value="true" />
@@ -405,7 +415,87 @@
       <option name="project" value="LOCAL" />
       <updated>1758350685194</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="28递归回文">
+      <option name="closed" value="true" />
+      <created>1758352590999</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1758352590999</updated>
+    </task>
+    <task id="LOCAL-00019" summary="28两数相加">
+      <option name="closed" value="true" />
+      <created>1758421693039</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1758421693039</updated>
+    </task>
+    <task id="LOCAL-00020" summary="29">
+      <option name="closed" value="true" />
+      <created>1758423798612</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1758423798612</updated>
+    </task>
+    <task id="LOCAL-00021" summary="9.22">
+      <option name="closed" value="true" />
+      <created>1758508849635</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1758508849635</updated>
+    </task>
+    <task id="LOCAL-00022" summary="9.22">
+      <option name="closed" value="true" />
+      <created>1758530103707</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1758530103707</updated>
+    </task>
+    <task id="LOCAL-00023" summary="9.23">
+      <option name="closed" value="true" />
+      <created>1758627737264</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1758627737264</updated>
+    </task>
+    <task id="LOCAL-00024" summary="9.24">
+      <option name="closed" value="true" />
+      <created>1758690858076</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1758690858076</updated>
+    </task>
+    <task id="LOCAL-00025" summary="9.24">
+      <option name="closed" value="true" />
+      <created>1758710253504</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1758710253504</updated>
+    </task>
+    <task id="LOCAL-00026" summary="9.24">
+      <option name="closed" value="true" />
+      <created>1758716395624</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1758716395624</updated>
+    </task>
+    <task id="LOCAL-00027" summary="9.24">
+      <option name="closed" value="true" />
+      <created>1758716405329</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1758716405329</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,8 +511,14 @@
     <MESSAGE value="25" />
     <MESSAGE value="25常规复制回文" />
     <MESSAGE value="25递归回文" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'" />
     <MESSAGE value="28递归回文" />
-    <option name="LAST_COMMIT_MESSAGE" value="28递归回文" />
+    <MESSAGE value="28两数相加" />
+    <MESSAGE value="29" />
+    <MESSAGE value="9.22" />
+    <MESSAGE value="9.23" />
+    <MESSAGE value="9.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.24" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -441,6 +537,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$59_2.coverage" NAME="59_螺旋矩阵2 覆盖结果" MODIFIED="1758693521631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数组/6.螺旋矩阵2" />
     <SUITE FILE_PATH="coverage/leetcode$009.coverage" NAME="009 覆盖结果" MODIFIED="1757228729379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$020_54.coverage" NAME="020_54螺旋矩阵 覆盖结果" MODIFIED="1758191183783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$009_.coverage" NAME="009_题解版 覆盖结果" MODIFIED="1757230291868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
