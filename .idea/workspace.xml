@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4050549c-553d-4113-80e5-9aa1a6daf6be" name="更改" comment="9.24">
-      <change afterPath="$PROJECT_DIR$/hot100/037_104二叉树的最大深度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hot100/038_226翻转二叉树.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hot100/039_101对称二叉树.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/2.二叉树的递归遍历/2,.145二叉树的后序遍历.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/2.二叉树的递归遍历/2..py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/2.二叉树的递归遍历/2.144二叉树前序遍历递归法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/3.二叉树的迭代遍历/3.144二叉树中序遍历迭代法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/3.二叉树的迭代遍历/3.144二叉树前序遍历迭代法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/3.二叉树的迭代遍历/3.145二叉树后序遍历迭代法.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/6.翻转二叉树/6.226翻转二叉树.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/9.二叉树的最大深度/9.104二叉树的最大深度.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/9.二叉树的最大深度/9.559n叉树的最大深度.py" afterDir="false" />
+    <list default="true" id="4050549c-553d-4113-80e5-9aa1a6daf6be" name="更改" comment="10.10">
+      <change afterPath="$PROJECT_DIR$/hot100/043_98验证二叉搜索树.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/035_146LRU缓存.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/！！！035_146LRU缓存.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/036_94二叉树的中序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/036_94二叉树的中序遍历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hot100/041_二叉树的层序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/041_102二叉树的层序遍历.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hot100/042_108. 将有序数组转换为二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/042_108. 将有序数组转换为二叉搜索树.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +266,7 @@
       <workItem from="1758690749218" duration="9213000" />
       <workItem from="1758707771999" duration="15642000" />
       <workItem from="1759025253800" duration="5112000" />
-      <workItem from="1760062974290" duration="5431000" />
+      <workItem from="1760062974290" duration="17844000" />
     </task>
     <task id="LOCAL-00001" summary="nihao">
       <option name="closed" value="true" />
@@ -495,7 +484,23 @@
       <option name="project" value="LOCAL" />
       <updated>1758716405329</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="10.10">
+      <option name="closed" value="true" />
+      <created>1760086932306</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1760086932306</updated>
+    </task>
+    <task id="LOCAL-00029" summary="10.10">
+      <option name="closed" value="true" />
+      <created>1760097556761</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1760097556761</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,7 +523,8 @@
     <MESSAGE value="9.22" />
     <MESSAGE value="9.23" />
     <MESSAGE value="9.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.24" />
+    <MESSAGE value="10.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.10" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
