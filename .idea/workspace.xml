@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4050549c-553d-4113-80e5-9aa1a6daf6be" name="更改" comment="10.10">
-      <change afterPath="$PROJECT_DIR$/hot100/043_98验证二叉搜索树.py" afterDir="false" />
+    <list default="true" id="4050549c-553d-4113-80e5-9aa1a6daf6be" name="更改" comment="10.11">
+      <change afterPath="$PROJECT_DIR$/hot100/044_230二叉搜索树中最K小的元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hot100/045_199二叉树的右视图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hot100/046_114二叉树展开为链表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/二叉树/5.二叉树的层序遍历/5.429N叉树的层序遍历.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/041_二叉树的层序遍历.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/041_102二叉树的层序遍历.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot100/042_108. 将有序数组转换为二叉搜索树.py" beforeDir="false" afterPath="$PROJECT_DIR$/hot100/042_108. 将有序数组转换为二叉搜索树.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +100,7 @@
       <recent name="F:\PycharmProjects\leetcode\二叉树\3.二叉树的迭代遍历" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\leetcode\二叉树\5.二叉树的层序遍历" />
       <recent name="F:\PycharmProjects\leetcode" />
       <recent name="F:\PycharmProjects\leetcode\链表" />
       <recent name="F:\PycharmProjects\leetcode\数组" />
@@ -266,7 +268,7 @@
       <workItem from="1758690749218" duration="9213000" />
       <workItem from="1758707771999" duration="15642000" />
       <workItem from="1759025253800" duration="5112000" />
-      <workItem from="1760062974290" duration="17844000" />
+      <workItem from="1760062974290" duration="27570000" />
     </task>
     <task id="LOCAL-00001" summary="nihao">
       <option name="closed" value="true" />
@@ -500,7 +502,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760097556761</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="10.11">
+      <option name="closed" value="true" />
+      <created>1760173388875</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1760173388875</updated>
+    </task>
+    <task id="LOCAL-00031" summary="10.11">
+      <option name="closed" value="true" />
+      <created>1760186257070</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1760186257070</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +542,8 @@
     <MESSAGE value="9.23" />
     <MESSAGE value="9.24" />
     <MESSAGE value="10.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.10" />
+    <MESSAGE value="10.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
