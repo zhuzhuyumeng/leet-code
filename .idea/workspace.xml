@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4050549c-553d-4113-80e5-9aa1a6daf6be" name="更改" comment="10.11">
-      <change afterPath="$PROJECT_DIR$/hot100/044_230二叉搜索树中最K小的元素.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hot100/045_199二叉树的右视图.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hot100/046_114二叉树展开为链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/二叉树/5.二叉树的层序遍历/5.429N叉树的层序遍历.py" afterDir="false" />
+    <list default="true" id="4050549c-553d-4113-80e5-9aa1a6daf6be" name="更改" comment="10.17">
+      <change afterPath="$PROJECT_DIR$/hot100/056_78子集.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,106 +51,71 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="32G8qQrabhKsQeyCn6mSyexcugQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.006.executor&quot;: &quot;Run&quot;,
-    &quot;Python.007_42.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.008_3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.009.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.009_438.executor&quot;: &quot;Run&quot;,
-    &quot;Python.009_题解版.executor&quot;: &quot;Run&quot;,
-    &quot;Python.010_560.executor&quot;: &quot;Run&quot;,
-    &quot;Python.010_题解版.executor&quot;: &quot;Run&quot;,
-    &quot;Python.011_239自己做.executor&quot;: &quot;Run&quot;,
-    &quot;Python.011_自己做2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.012_76_最小覆盖子串.executor&quot;: &quot;Run&quot;,
-    &quot;Python.013_53最大子数组和.executor&quot;: &quot;Run&quot;,
-    &quot;Python.014_56区间合并.executor&quot;: &quot;Run&quot;,
-    &quot;Python.016_189轮转数组.executor&quot;: &quot;Run&quot;,
-    &quot;Python.017_238除自身以外数组的乘积.executor&quot;: &quot;Run&quot;,
-    &quot;Python.018_41缺失的第一个正数.executor&quot;: &quot;Run&quot;,
-    &quot;Python.019_73矩阵置零.executor&quot;: &quot;Run&quot;,
-    &quot;Python.019_两标记变量.executor&quot;: &quot;Run&quot;,
-    &quot;Python.020_54螺旋矩阵.executor&quot;: &quot;Run&quot;,
-    &quot;Python.021_48旋转图像.executor&quot;: &quot;Run&quot;,
-    &quot;Python.022_240搜索二维矩阵.executor&quot;: &quot;Run&quot;,
-    &quot;Python.59_螺旋矩阵2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/PycharmProjects/leetcode/二叉树/3.二叉树的迭代遍历&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.006.executor": "Run",
+    "Python.007_42.executor": "Debug",
+    "Python.008_3.executor": "Run",
+    "Python.009.executor": "Debug",
+    "Python.009_438.executor": "Run",
+    "Python.009_题解版.executor": "Run",
+    "Python.010_560.executor": "Run",
+    "Python.010_题解版.executor": "Run",
+    "Python.011_239自己做.executor": "Run",
+    "Python.011_自己做2.executor": "Run",
+    "Python.012_76_最小覆盖子串.executor": "Run",
+    "Python.013_53最大子数组和.executor": "Run",
+    "Python.014_56区间合并.executor": "Run",
+    "Python.016_189轮转数组.executor": "Run",
+    "Python.017_238除自身以外数组的乘积.executor": "Run",
+    "Python.018_41缺失的第一个正数.executor": "Run",
+    "Python.019_73矩阵置零.executor": "Run",
+    "Python.019_两标记变量.executor": "Run",
+    "Python.020_54螺旋矩阵.executor": "Run",
+    "Python.021_48旋转图像.executor": "Run",
+    "Python.022_240搜索二维矩阵.executor": "Run",
+    "Python.051_200岛屿数量.executor": "Run",
+    "Python.052_994腐烂的橘子.executor": "Debug",
+    "Python.052_优化版.executor": "Debug",
+    "Python.053_207课程表.executor": "Run",
+    "Python.053_广度优先遍历.executor": "Run",
+    "Python.054_209实现Trie前缀树.executor": "Run",
+    "Python.055_46全排列.executor": "Run",
+    "Python.056_78子集.executor": "Debug",
+    "Python.59_螺旋矩阵2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/PycharmProjects/leetcode/二叉树/3.二叉树的迭代遍历",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\PycharmProjects\leetcode\二叉树\3.二叉树的迭代遍历" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PycharmProjects\leetcode\二叉树\19.从中序与后序遍历序列构造二叉树" />
       <recent name="F:\PycharmProjects\leetcode\二叉树\5.二叉树的层序遍历" />
       <recent name="F:\PycharmProjects\leetcode" />
       <recent name="F:\PycharmProjects\leetcode\链表" />
       <recent name="F:\PycharmProjects\leetcode\数组" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.59_螺旋矩阵2">
-    <configuration name="019_两标记变量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/019_两标记变量.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="020_54螺旋矩阵" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/020_54螺旋矩阵.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="021_240搜索二维矩阵" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.056_78子集">
+    <configuration name="053_广度优先遍历" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -167,7 +129,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\PycharmProjects\leetcode\hot100\021_240搜索二维矩阵.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hot100/053_广度优先遍历.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +138,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="021_48旋转图像" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="053_207课程表" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,35 +147,81 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/021_48旋转图像.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="59_螺旋矩阵2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/数组/6.螺旋矩阵2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hot100" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/数组/6.螺旋矩阵2/59_螺旋矩阵2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hot100/053_207课程表.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="054_209实现Trie前缀树" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hot100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hot100/054_209实现Trie前缀树.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="055_46全排列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hot100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hot100/055_46全排列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="056_78子集" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/hot100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hot100/056_78子集.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.59_螺旋矩阵2" />
-        <item itemvalue="Python.021_240搜索二维矩阵" />
-        <item itemvalue="Python.021_48旋转图像" />
-        <item itemvalue="Python.020_54螺旋矩阵" />
-        <item itemvalue="Python.019_两标记变量" />
+        <item itemvalue="Python.056_78子集" />
+        <item itemvalue="Python.055_46全排列" />
+        <item itemvalue="Python.054_209实现Trie前缀树" />
+        <item itemvalue="Python.053_广度优先遍历" />
+        <item itemvalue="Python.053_207课程表" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +276,16 @@
       <workItem from="1758690749218" duration="9213000" />
       <workItem from="1758707771999" duration="15642000" />
       <workItem from="1759025253800" duration="5112000" />
-      <workItem from="1760062974290" duration="27570000" />
+      <workItem from="1760062974290" duration="27872000" />
+      <workItem from="1760311500325" duration="4066000" />
+      <workItem from="1760319276912" duration="1202000" />
+      <workItem from="1760327575257" duration="8570000" />
+      <workItem from="1760401822640" duration="9995000" />
+      <workItem from="1760420435036" duration="264000" />
+      <workItem from="1760444642494" duration="155000" />
+      <workItem from="1760498239326" duration="25611000" />
+      <workItem from="1760607087607" duration="6827000" />
+      <workItem from="1760666235277" duration="1111000" />
     </task>
     <task id="LOCAL-00001" summary="nihao">
       <option name="closed" value="true" />
@@ -518,7 +535,39 @@
       <option name="project" value="LOCAL" />
       <updated>1760186257070</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="10.11">
+      <option name="closed" value="true" />
+      <created>1760279173406</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1760279173406</updated>
+    </task>
+    <task id="LOCAL-00033" summary="10.14">
+      <option name="closed" value="true" />
+      <created>1760444654396</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1760444654396</updated>
+    </task>
+    <task id="LOCAL-00034" summary="10.15">
+      <option name="closed" value="true" />
+      <created>1760532312292</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1760532312292</updated>
+    </task>
+    <task id="LOCAL-00035" summary="10.17">
+      <option name="closed" value="true" />
+      <created>1760666518175</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1760666518175</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -543,7 +592,10 @@
     <MESSAGE value="9.24" />
     <MESSAGE value="10.10" />
     <MESSAGE value="10.11" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.11" />
+    <MESSAGE value="10.14" />
+    <MESSAGE value="10.15" />
+    <MESSAGE value="10.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -558,31 +610,49 @@
           <line>30</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hot100/051_200岛屿数量.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/hot100/055_46全排列.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$59_2.coverage" NAME="59_螺旋矩阵2 覆盖结果" MODIFIED="1758693521631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/数组/6.螺旋矩阵2" />
+    <SUITE FILE_PATH="coverage/leetcode$053_.coverage" NAME="053_广度优先遍历 覆盖结果" MODIFIED="1760592892613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
     <SUITE FILE_PATH="coverage/leetcode$009.coverage" NAME="009 覆盖结果" MODIFIED="1757228729379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$020_54.coverage" NAME="020_54螺旋矩阵 覆盖结果" MODIFIED="1758191183783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$009_.coverage" NAME="009_题解版 覆盖结果" MODIFIED="1757230291868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$008_3.coverage" NAME="008_3 覆盖结果" MODIFIED="1757048145360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$010_.coverage" NAME="010_题解版 覆盖结果" MODIFIED="1757555401139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$007_42.coverage" NAME="007_42 覆盖结果" MODIFIED="1757039368423" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$019_73.coverage" NAME="019_73矩阵置零 覆盖结果" MODIFIED="1758168883147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$006.coverage" NAME="006 覆盖结果" MODIFIED="1757037634565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$010_560.coverage" NAME="010_560 覆盖结果" MODIFIED="1757556515009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$052_994.coverage" NAME="052_994腐烂的橘子 覆盖结果" MODIFIED="1760531761638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
     <SUITE FILE_PATH="coverage/012_76__py$012_76_.coverage" NAME="012_76_最小覆盖子串 覆盖结果" MODIFIED="1758011844422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$011_239.coverage" NAME="011_239自己做 覆盖结果" MODIFIED="1757643268340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$011_2.coverage" NAME="011_自己做2 覆盖结果" MODIFIED="1757644590853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/012_76__py$016_189.coverage" NAME="016_189轮转数组 覆盖结果" MODIFIED="1758084678474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/leetcode$021_48.coverage" NAME="021_48旋转图像 覆盖结果" MODIFIED="1758194871818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$051_200.coverage" NAME="051_200岛屿数量 覆盖结果" MODIFIED="1760514361354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
     <SUITE FILE_PATH="coverage/leetcode$009_438.coverage" NAME="009_438 覆盖结果" MODIFIED="1757131081594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/012_76__py$013_53.coverage" NAME="013_53最大子数组和 覆盖结果" MODIFIED="1758076686268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/leetcode$022_240.coverage" NAME="022_240搜索二维矩阵 覆盖结果" MODIFIED="1758267577503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
     <SUITE FILE_PATH="coverage/012_76__py$014_56.coverage" NAME="014_56区间合并 覆盖结果" MODIFIED="1758088408410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/012_76__py$018_41.coverage" NAME="018_41缺失的第一个正数 覆盖结果" MODIFIED="1758090132547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/012_76__py$017_238.coverage" NAME="017_238除自身以外数组的乘积 覆盖结果" MODIFIED="1758088035207" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$020_54.coverage" NAME="020_54螺旋矩阵 覆盖结果" MODIFIED="1758191183783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$008_3.coverage" NAME="008_3 覆盖结果" MODIFIED="1757048145360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$019_73.coverage" NAME="019_73矩阵置零 覆盖结果" MODIFIED="1758168883147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$054_209Trie.coverage" NAME="054_209实现Trie前缀树 覆盖结果" MODIFIED="1760608307040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
+    <SUITE FILE_PATH="coverage/leetcode$011_2.coverage" NAME="011_自己做2 覆盖结果" MODIFIED="1757644590853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/012_76__py$016_189.coverage" NAME="016_189轮转数组 覆盖结果" MODIFIED="1758084678474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$021_48.coverage" NAME="021_48旋转图像 覆盖结果" MODIFIED="1758194871818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/012_76__py$018_41.coverage" NAME="018_41缺失的第一个正数 覆盖结果" MODIFIED="1758090132547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$052_.coverage" NAME="052_优化版 覆盖结果" MODIFIED="1760532071694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
+    <SUITE FILE_PATH="coverage/leetcode$055_46.coverage" NAME="055_46全排列 覆盖结果" MODIFIED="1760623506221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
+    <SUITE FILE_PATH="coverage/leetcode$056_78.coverage" NAME="056_78子集 覆盖结果" MODIFIED="1760667155697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
     <SUITE FILE_PATH="coverage/leetcode$019_.coverage" NAME="019_两标记变量 覆盖结果" MODIFIED="1758172857300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$053_207.coverage" NAME="053_207课程表 覆盖结果" MODIFIED="1760590951122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hot100" />
   </component>
 </project>
