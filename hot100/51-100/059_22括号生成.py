@@ -1,23 +1,30 @@
 class Solution:
     def generateParenthesis(self, n: int) -> list[str]:
-        def dfs(depth:int,path:str):
-            if n-depth == 0:
-                res.append(path)
+        def backtracking(n:int,res: list[str],left: int,right: int,str: str):
+            if right>left:
                 return
-            for i in range(depth,size):
-                dfs(depth+1,path+'(')
-                path = path + ')'
+            if left == right ==n:
+                res.append(str)
+                return
+            if left<n:
+                backtracking(n, res, left+1, right, str+"(")
+            if right<left:
+                backtracking(n, res, left, right+1, str+")")
+
+
 
         res = []
-        size = n
-        path=""
-        depth = 0
-        dfs(depth,path)
+        backtracking(n,res,0,0,"")
         return res
 
 
+
 if __name__ == '__main__':
-    n = 1
+    n = 3
     solution = Solution()
     res = solution.generateParenthesis(n)
     print(res)
+
+"""
+在任何情况下，左括号应该比右边的多
+"""
