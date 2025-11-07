@@ -17,32 +17,32 @@ class MemTimer:
         print(f"[MemTimer] 峰值内存: {peak / 1024 / 1024:.3f} MB")   # 单位 MB
 
 class Solution:
-    def combinationSum(self, candidates: list[int], target: int) -> list[list[int]]:
-        def backtracting(start:int,count: int):
-            if count==0:
+    def combinationSum2(self, candidates: list[int], target: int) -> list[list[int]]:
+        def backtracking(start:int ,target:int ):
+            if target==0:
                 res.append(tmp.copy())
                 return
-            if count<0:
-                return
             for i in range(start,size):
-                if count-candidates[i]<0:
+                if candidates[i]>target:
                     break
+                if i>start and candidates[i]==candidates[i-1]:#当前数字等于前面一个数字，i > start，说明不是本层第一个 保证跳过的是同一层的重复值；
+                # if candidates[i] == candidates[i - 1]:  # 如果相等就不加入了，i>start
+                    continue
                 tmp.append(candidates[i])
-                backtracting(i,count-candidates[i])
+                backtracking(i+1,target-candidates[i])
                 tmp.pop()
-# 我需要下一层不能前溯，如何
-        start = 0
-        size = len(candidates)
+# 如何在下一个数字去重，如果数字一致，不应该向下，同一层该数字再次出现就剪掉
         res = []
         tmp = []
+        size = len(candidates)
         candidates.sort()
-        backtracting(start,target)
+        backtracking(0,target)
         return res
 
-if __name__ == '__main__':
-    candidates = [2,3,6,7]
-    target = 7
+if __name__ == "__main__":
+    candidates = [10, 1, 2, 7, 6, 1, 5]
+    target = 8
     with MemTimer():
         sol = Solution()
-        ans = sol.combinationSum(candidates, target)
+        ans = sol.combinationSum2(candidates, target)
         print("结果:", ans)
