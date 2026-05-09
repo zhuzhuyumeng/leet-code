@@ -8,9 +8,7 @@ class Solution:
                 if visited[i] is False: # visited是按照数字在列表的位置来排的，不用担心
                     path.append(nums[i])
                     visited[i]=True
-                    depth+=1
-                    dfs(nums,size,depth,path,visited,res)
-                    depth-=1
+                    dfs(nums,size,depth+1,path,visited,res)
                     visited[i]=False
                     path.pop()
 

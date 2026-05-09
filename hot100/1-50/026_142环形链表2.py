@@ -15,3 +15,20 @@ class Solution:
             hash.add(head)
             head = head.next
         return None
+    def detectCycle2(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head or not head.next:
+            return None
+        fast = head
+        slow = head
+        while fast!=None:
+            slow = slow.next
+            if fast.next == None:
+                return None
+            fast = fast.next.next
+            if fast==slow:
+                ptr = head
+                while ptr!=slow:
+                    ptr = ptr.next
+                    slow = slow.next
+                return ptr
+        return None

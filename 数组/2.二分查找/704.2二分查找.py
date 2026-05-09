@@ -1,0 +1,16 @@
+nums = [-1,0,3,5,9,12]
+class Solution:
+    def search(self, nums: list[int], target: int) -> int:
+        n = len(nums)
+        left = 0
+        right = n-1
+        while left <= right:
+            mid = (left+right)//2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                right = mid-1
+            else:
+                left = mid + 1
+        return -1
+print(Solution.search(Solution,nums,9))
